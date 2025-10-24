@@ -80,10 +80,10 @@ export const timeUnits = [
 
 export const timeRates = {
   second: 1,
-  minute: 1/60,
-  hour: 1/3600,
-  day: 1/86400,
-  week: 1/604800,
+  minute: 60,
+  hour: 3600,
+  day: 86400,
+  week: 604800,
 };
 
 export const volumeUnits = [
