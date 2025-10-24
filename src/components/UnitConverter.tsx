@@ -55,7 +55,7 @@ export const UnitConverter = ({ title, icon, units, baseUnit, conversionRates }:
 
       <div className="space-y-4">
         <div className="space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">From</label>
+          <label className="text-sm font-medium text-muted-foreground">To</label>
           <div className="flex gap-3">
             <Input
               type="number"
@@ -91,7 +91,7 @@ export const UnitConverter = ({ title, icon, units, baseUnit, conversionRates }:
         </div>
 
         <div className="space-y-2">
-          <label className="text-sm font-medium text-muted-foreground">To</label>
+          <label className="text-sm font-medium text-muted-foreground">From</label>
           <div className="flex gap-3">
             <Input
               type="number"
